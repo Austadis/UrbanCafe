@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: UrbanCafe.ma
-//Last modified: Sun, Feb 16, 2025 12:53:40 PM
+//Last modified: Sun, Feb 16, 2025 12:57:24 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 12.7.6";
-fileInfo "UUID" "BCD2B288-8044-C2F9-30E1-A786E5448225";
+fileInfo "UUID" "00AB9EFC-3845-91CB-DA0B-6B9BA2B5559F";
 createNode transform -s -n "persp";
 	rename -uid "4BC4B48D-E74D-83B1-0F7C-8CBE13C269A2";
 	setAttr ".t" -type "double3" 8.6546285497773461 8.2968367728178691 -13.194453076729937 ;
@@ -1237,14 +1237,14 @@ createNode mesh -n "pPlaneShape9" -p "pPlane9";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "persp1";
 	rename -uid "123B6807-BB40-2E99-D820-7BA8A790D91F";
-	setAttr ".t" -type "double3" 32.153233907656322 16.782908430838365 -26.038325913305577 ;
+	setAttr ".t" -type "double3" 39.454623729235585 20.280537029761557 -32.658821923365473 ;
 	setAttr ".r" -type "double3" -19.538352728969752 852.20000000071138 0 ;
 createNode camera -n "perspShape1" -p "persp1";
 	rename -uid "1AC7F433-8648-319C-6165-C69494FEE945";
 	setAttr -k off ".v";
 	setAttr ".rnd" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 44.770389471834747;
+	setAttr ".coi" 55.228623862107639;
 	setAttr ".imn" -type "string" "persp1";
 	setAttr ".den" -type "string" "persp1_depth";
 	setAttr ".man" -type "string" "persp1_mask";
